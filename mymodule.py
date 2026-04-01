@@ -25,6 +25,63 @@ print("the sum is",a+b)'''
         print("This program is run as module")
 dummy()'''
 
+#random module
+
+'''import random
+a=random.sample(range(10,30),5)
+print(a)'''
+
+#randint()
+'''import random
+a=random.randint(40,60)
+print(a)'''
+
+
+#choice()
+'''import random
+b=[10,20,30,40,50,60]
+a=random.choice(b)
+print(b)'''
+
+
+#task Dice code
+'''while True:
+    import random
+    a=int(input("enter the roll of Dice"))
+    b=random.randint(1,6)
+    print(b)
+    options=input("Roll again? (y/n)")
+                  
+    if options=="y":
+        continue
+    elif options=="n":
+        break
+    else:
+        print("Invalid option")'''
+
+#calendar
+'''import calendar
+year=2026
+month=4
+print(calendar.month(year,month))'''
+
+
+'''import calendar
+year=2027
+print(calendar.calendar(year))'''
+
+
+'''import calendar
+year=int(input("Enter the year"))
+month=int(input("enter the month"))
+print(calendar.month(year,month))'''
+
+
+
+
+
+        
+
 
 
 
