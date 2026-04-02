@@ -77,6 +77,41 @@ month=int(input("enter the month"))
 print(calendar.month(year,month))'''
 
 
+#Date&time
+
+'''from datetime import date
+a=date.today()
+print(a)'''
+
+'''import datetime
+a=datetime.datetime.now()
+print(a)'''
+
+'''import time
+a=time.time()
+print(a) #epoch time
+
+b=time.localtime(a)
+print(b)'''
+
+'''import time
+a=time.time()
+b=time.localtime(a)
+print(f"today date is {b.tm_mday}-{b.tm_mon}-{b.tm_year}")'''
+
+
+'''import time
+a=time.time()
+b=time.localtime(a)
+print(f"Now time is {b.tm_hour}:{b.tm_min}:{b.tm_sec}")'''
+
+'''import time
+a=time.time()
+b=time.localtime(a)
+print(f"day is {b.tm_wday}-{b.tm_yday}-{b.tm_isdst}")'''
+
+
+
 
 
 
